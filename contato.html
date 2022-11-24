@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resource/styles/reset.css">
+    <link rel="stylesheet" href="./resource/styles/sobre.css">
+    <link rel="stylesheet" href="./resource/styles/footer.css">
+    <link rel="stylesheet" href="./resource/styles/header.css">
+    <link rel="stylesheet" href="./resource/styles/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+    
+    <title>Contatos-Barbearia</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <img src="/resource/img/logo.png" alt="Logo barbearia">
+            </h1>
+            
+            <nav class="navbar-barbearia">
+                <ul>
+                    <li><a href="./products.html" target="_blank" rel="noopener noreferrer">Home</a></li>
+                    <li><a href="./index.html" target="_blank" rel="noopener noreferrer">Sobre</a></li>
+                    <li><a href="./contato.html" target="_blank" rel="noopener noreferrer">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        
+            <form action="">
+                <fieldset>
+                    <legend>Contatos: </legend>
+
+                    <label for="nome">Nome:</label>
+                    <input id="nome" type="text" name="nome" required placeholder="nome e sobrenome" 
+                    class="custominzed-input">
+
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" name="email" required placeholder="exemplo@exemplo.com" class="custominzed-input">
+
+                    <label for="telefone">Telefone:</label>
+                    <input id="tel" type="text" name="telefone" required placeholder="+55 (xx) xxx-xxx" class="custominzed-input">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="custominzed-input"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input id="readio-email" type="radio" class="type" value="email" name="contato" checked> E-mail </label>
+                    
+                    <label for="radio-telefone"><input id="radio-telefone" type="radio" class="type" value="telefone"  name="contato"> Telefone </label>
+                    
+                    <label for="radio-whatsapp"><input id="radio-whatsapp" type="radio" class="type" value="whatsapp"  name="contato" checked> WhatsApp </label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário você prefere?</legend>
+                    <div class="select-options">
+                        <select name="" id="">
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </div>
+                    
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label for="novidades" class="novidades-checkbox"> <input type="checkbox" id="novidades" nome="novidades">Gostaria de receber nossas novidades por E-mail?</label>
+                </fieldset>
+                <br>
+                <div class="button">
+                    <input class="submit-button" type="submit" value="Enviar formulário">
+                </div>
+                
+            </form>
+            <div class="tableClass">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda-Feira</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Terça-Feira</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-Feira</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta-Feira</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-Feira</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+    </main>
+    <footer>
+        <img src="./resource/img/logo-branco.png" alt="Logo rodapé">
+        <p> &copy; copyright Barbearia  - 2022 </p>
+        <p> &hearts; This site was created by Kai Wang 王凱 Developer FullStack </p>
+    </footer>
+</body>
+</html>

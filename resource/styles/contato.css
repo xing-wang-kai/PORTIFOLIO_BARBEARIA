@@ -1,0 +1,127 @@
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid black;
+    border-radius: 0 25px 0 25px;
+    padding: 25px;
+}
+
+fieldset:hover {
+    border-color: #c78c19;
+}
+legend {
+    font-size: 25px;
+    padding: 10px;
+}
+fieldset:hover legend {
+    color: #c78c19 ; 
+}
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.custominzed-input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+
+    width: 50%;
+}
+
+.novidades-checkbox{
+    margin: 20px 0;
+}
+.select-options{
+    text-align: center;
+}
+.select-options select{
+    width: 50%;
+    height: 3em;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #c78c19;
+}
+
+.button{
+    text-align: center;
+}
+
+.submit-button{
+    background: #c78c19;
+    color: white;
+    paddign: 40px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 40%;
+    height: 46px;
+    transition: 3s;
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    background: black;
+    color: #c78c19;
+    transition: 2s;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 15px 10px;
+    font-size: 19px;
+}
+
+.tableClass{
+    margin: 0 25%;
+}
+@media screen and (max-width: 940px)
+{
+    main {
+        width: auto;
+    }
+    form {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .custominzed-input {
+           
+        width: 80%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px)
+{
+    .submit-button{
+        width: 80%;
+    }
+
+}

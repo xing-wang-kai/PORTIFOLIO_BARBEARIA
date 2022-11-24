@@ -1,0 +1,15 @@
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    background: url("../../resource/img/bg.jpg");
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #CCCCCC;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

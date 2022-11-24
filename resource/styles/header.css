@@ -1,0 +1,77 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navbar-barbearia {
+    position: absolute;
+    right: 0;
+    top: 110px;
+
+}
+
+.navbar-barbearia li {
+    display: inline;
+
+    text-decoration: none;
+
+    margin: 0 0 0 15px;
+}
+
+.navbar-barbearia li a {
+    color: #000000;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-barbearia a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px){
+	.container{
+        width: auto;
+        position: static;
+    }
+    
+    .navbar-barbearia li{
+        text-align: center;
+    }
+    .navbar-barbearia{
+        position: static;
+        margin-right:  0 auto;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .container{
+        width: auto;
+    }
+    .navbar-barbearia li{
+        display: block;
+        
+    }
+    .navbar-barbearia{
+        margin-right: 10%;
+    }
+    
+}
