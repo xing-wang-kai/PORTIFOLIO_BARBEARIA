@@ -25,3 +25,19 @@ A página desenvolvida neste projeto possue 3 layout, sendo a primeira o INDEX o
 
 ![pagina produtos](./resource/markdownsrc/barbeariacontatos.gif)
 
+## Construindo com HTML
+
+Estrutura básica do HTML:
+
+![pagina produtos](./resource/markdownsrc/001.png)
+
+marcação para tags: 
+![pagina produtos](./resource/markdownsrc/002.png)
+
+Principais Tags usadas:
+![pagina produtos](./resource/markdownsrc/003.png)
+
+![pagina produtos](./resource/markdownsrc/004.png)
+![pagina produtos](./resource/markdownsrc/005.png)
+![pagina produtos](./resource/markdownsrc/006.png)
+
